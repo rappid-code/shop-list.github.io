@@ -3,6 +3,9 @@
 :root {
   font-size: 16px;
 }
+.br {
+  display:none;
+}
 
 h1 {
   display: none;
@@ -110,6 +113,10 @@ td input[type='checkbox'] {
 }
 
 @media(max-width: 600px) {
+  .br {
+    display: block
+  }
+    
   h1 {
     display: block;
     font-size: 10px;
@@ -124,15 +131,15 @@ td input[type='checkbox'] {
     font-size: 8px;
   }
   main {
-    width:280px;
+    width:230px;
   }
 
   th#todoLabel {
-    width: 100px;
+    width: 80px;
   }
   
   th#dateLabel {
-    width: 50px;
+    width: 20px;
   }
   button#submit, button#priority, button#remove, button#release {
     margin-left: 0;
