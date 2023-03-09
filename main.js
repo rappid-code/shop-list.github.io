@@ -137,7 +137,7 @@ const clearTable = () => {
 
   // 削除ボタンを作成
   const remove = document.createElement('button');
-  remove.textContent = "完了したお買い物を削除する";
+  remove.textContent = "完了したアイテムを削除する";
   remove.id = 'remove';
   const br = document.createElement('br');
   main.appendChild(br);
